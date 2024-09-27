@@ -8,10 +8,13 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Import dataset and get data info
+2. Check for null values
+3. Map values for position column
+4. Split the dataset into train and test set
+5. Import decision tree regressor and fit it for data
+6. Calculate MSE value, R2 value and Data predict.
+
 
 ## Program:
 ```
@@ -53,8 +56,9 @@ dt.predict([[5,6]])
 ```
 
 ## Output:
-![Decision Tree Regressor Model for Predicting the Salary of the Employee](sam.png)
+![image](https://github.com/user-attachments/assets/557c777a-652f-486f-9530-83ef3668b4be)
 
+![image](https://github.com/user-attachments/assets/f7d8c810-5915-41ee-abeb-22ecdf77e0b9)
 
 ## Result:
 Thus the program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee is written and verified using python programming.
